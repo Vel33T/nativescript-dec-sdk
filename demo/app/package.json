@@ -1,0 +1,104 @@
+{
+  "name": "nativescript-dec-sdk-demo",
+  "main": "app.js",
+  "version": "1.0.0",
+  "author": {
+    "name": "Progress",
+    "email": "decteam@progress.com"
+  },
+  "description": "Demo for Progress Sitefinity Digital Experience Cloud SKD for NativeScript",
+  "license": "Apache-2.0",
+  "keywords": [
+    "progress",
+    "mobile",
+    "nativescript",
+    "{N}",
+    "tns",
+    "dec",
+    "sitefinity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sitefinity/nativescript-dec-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sitefinity/nativescript-dec-sdk/issues"
+  },
+  "homepage": "https://github.com/Sitefinity/nativescript-dec-sdk",
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
+  "devDependencies": {
+    "nativescript-dev-typescript": "^0.3.0"
+  },
+  "scripts": {
+    "build.plugin": "cd ../src && npm run build",
+    "ci.tslint": "npm i && tslint --config '../tslint.json' 'app/**/*.ts' --exclude '**/node_modules/**'"
+  },
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "name": "enchev",
+    "email": "vladimir.enchev@gmail.com"
+  },
+  "dist": {
+    "shasum": "a567c2b9a56024818c06596dab9629d155c5b8a8",
+    "tarball": "http://registry.npmjs.org/tns-template-hello-world-ts/-/tns-template-hello-world-ts-1.6.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "enchev",
+      "email": "vladimir.enchev@gmail.com"
+    },
+    {
+      "name": "erjangavalji",
+      "email": "erjan.gavalji@gmail.com"
+    },
+    {
+      "name": "fatme",
+      "email": "hfatme@gmail.com"
+    },
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "kerezov",
+      "email": "d.kerezov@gmail.com"
+    },
+    {
+      "name": "ligaz",
+      "email": "stefan.dobrev@gmail.com"
+    },
+    {
+      "name": "nsndeck",
+      "email": "nedyalko.nikolov@telerik.com"
+    },
+    {
+      "name": "rosen-vladimirov",
+      "email": "rosen.vladimirov.91@gmail.com"
+    },
+    {
+      "name": "sdobrev",
+      "email": "stefan.dobrev@gmail.com"
+    },
+    {
+      "name": "tailsu",
+      "email": "tailsu@gmail.com"
+    },
+    {
+      "name": "teobugslayer",
+      "email": "teobugslayer@gmail.com"
+    },
+    {
+      "name": "valio.stoychev",
+      "email": "valio.stoychev@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/tns-template-hello-world-ts-1.6.0.tgz_1455717516189_0.6427943941671401"
+  },
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
