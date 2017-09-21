@@ -1,6 +1,6 @@
 {
     "name": "nativescript-dec-sdk",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Progress Sitefinity Digital Experience Cloud SDK for NativeScript.",
     "main": "dec-sdk",
     "typings": "index.d.ts",
@@ -39,6 +39,10 @@
     "author": {
         "name": "Velizar Velizarov",
         "email": "velizar.velizarov@progress.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/Sitefinity/nativescript-dec-sdk.git"
     },
     "bugs": {
         "url": "https://github.com/Sitefinity/nativescript-dec-sdk/issues"

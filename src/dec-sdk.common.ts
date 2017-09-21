@@ -5,7 +5,7 @@ import { PersonalizationReportParams } from "./models/personalization-report-par
 
 export class Common {
 	private readonly constants = {
-		sdkVersion: "nativescript-dec-sdk-1.0.0",
+		sdkVersion: "nativescript-dec-sdk-1.0.2",
 		endpoints: {
 			apiServerUrl: "https://api.dec.sitefinity.com"
 		},
