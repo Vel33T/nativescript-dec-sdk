@@ -1,6 +1,9 @@
-# Progress Sitefinity Digital Experience Cloud SDK plugin for NativeScript ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
+# Progress Sitefinity Digital Experience Cloud SDK plugin for NativeScript ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/dat
 
-Badges here ->
+[![NPM version][npm-image]][npm-url]
+
+[npm-image]:https://img.shields.io/npm/v/nativescript-dec-sdk.svg
+[npm-url]:https://www.npmjs.com/package/nativescript-dec-sdk
 
 The purpose of this plugin is to help and ease the developers working with Progress Sitefinity Digital Experience Cloud API. It simplifies the sending of user Interactions to the DEC servers and the getting of Personalization information from there.
 
