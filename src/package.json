@@ -6,8 +6,8 @@
     "typings": "index.d.ts",
     "nativescript": {
         "platforms": {
-            "android": "3.0.0",
-            "ios": "3.0.0"
+            "android": "3.2.0",
+            "ios": "3.2.0"
         }
     },
     "scripts": {
@@ -37,26 +37,25 @@
         "Sitefinity"
     ],
     "author": {
-        "name": "Progress",
-        "email": "decteam@progress.com"
+        "name": "Velizar Velizarov",
+        "email": "velizar.velizarov@progress.com"
     },
     "bugs": {
-        "url": "https://github.com/Vel33T/nativescript-dec-sdk/issues"
+        "url": "https://github.com/Sitefinity/nativescript-dec-sdk/issues"
     },
     "license": "Apache-2.0",
     "homepage": "",
     "readmeFilename": "README.md",
     "peerDependencies": {
-        "tns-core-modules": "^3.0.0"
+        "tns-core-modules": "^3.2.0"
     },
     "devDependencies": {
-        "tns-core-modules": "^3.1.0",
-        "tns-platform-declarations": "^3.1.0",
+        "tns-core-modules": "3.2.0",
+        "tns-platform-declarations": "^3.2.0",
         "typescript": "~2.3.0",
         "prompt": "^1.0.0",
         "rimraf": "^2.5.0",
         "tslint": "^5.0.0"
     },
-    "dependencies": {},
-    "bootstrapper": "nativescript-plugin-seed"
+    "dependencies": {}
 }
