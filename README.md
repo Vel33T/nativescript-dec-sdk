@@ -1,4 +1,4 @@
-# Progress Sitefinity Digital Experience Cloud SDK plugin for NativeScript ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/dat
+# Progress Sitefinity Digital Experience Cloud SDK plugin for NativeScript ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn4.iconfinder.com/data/icons/logos-3/228/android-32.png)
 
 [![NPM version][npm-image]][npm-url]
 
