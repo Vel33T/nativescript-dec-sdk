@@ -134,5 +134,4 @@ The personalizationReportParams should follow this structure (**all properties a
 
 <!-- 
 ## License
-
 Apache License Version 2.0, January 2004 -->
