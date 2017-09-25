@@ -115,7 +115,7 @@ export class Common {
 		if (!campaignIds) throw new Error('You must provide "campaignIds" argument when using the "isInCampaigns" method.');
 		if (!subjectKey) throw new Error('You must provide "subjectKey" argument when using the "isInCampaigns" method.');
 
-		var headers = {};
+		let headers = {};
 
 		headers[this.constants.headers.subject] = subjectKey;
 		headers[this.constants.headers.ids] = campaignIds;
@@ -128,7 +128,7 @@ export class Common {
 		if (!scoringIds) throw new Error('You must provide "scoringIds" argument when using the "isInLeads" method.');
 		if (!subjectKey) throw new Error('You must provide "subjectKey" argument when using the "isInLeads" method.');
 
-		var headers = {};
+		let headers = {};
 
 		headers[this.constants.headers.subject] = subjectKey;
 		headers[this.constants.headers.ids] = scoringIds;
@@ -141,7 +141,7 @@ export class Common {
 		if (!scoringIds) throw new Error('You must provide "scoringIds" argument when using the "isInPersonas" method.');
 		if (!subjectKey) throw new Error('You must provide "subjectKey" argument when using the "isInPersonas" method.');
 
-		var headers = {};
+		let headers = {};
 
 		headers[this.constants.headers.subject] = subjectKey;
 		headers[this.constants.headers.ids] = scoringIds;

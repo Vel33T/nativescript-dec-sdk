@@ -13,7 +13,7 @@ export class PersonalizationReportParams {
       /** The url of the page currently personalized. */
       canonicalUrl: string;
 
-      /** The segment by which the page is personalized - 
+      /** The segment by which the page is personalized -
        * the Persona, the Lead Scoring or the Campaign.
        */
       segment: string;
