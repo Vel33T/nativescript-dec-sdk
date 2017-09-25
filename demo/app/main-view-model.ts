@@ -3,18 +3,18 @@ import { DecClient } from 'nativescript-dec-sdk';
 import { Options } from 'nativescript-dec-sdk/models/options';
 
 export class HelloWorldModel extends Observable {
-  private decClient: DecClient;
-  private readonly options: Options = {
-    apiKey: 'testApiKey',
-    source: 'testSource'
-  };
-  
-  public message: string;
+    private decClient: DecClient;
+    private readonly options: Options = {
+        apiKey: 'testApiKey',
+        source: 'testSource'
+    };
 
-  constructor() {
-    super();
+    public message: string;
 
-    this.decClient = new DecClient(this.options);
-    this.message = "Hello DEC User!"
-  }
+    constructor() {
+        super();
+
+        this.decClient = new DecClient(this.options);
+        this.message = "Hello DEC User!";
+    }
 }
